@@ -11,3 +11,15 @@ export async function getHerbs() {
 
   return response.body;
 }
+
+export async function getVines() {
+  const response = await client.from('vines').select('*');
+
+  return response.body;
+}
+
+export async function getPlants() {
+  const response = await client.from('fancy').select('*');
+
+  return response.body;
+}
