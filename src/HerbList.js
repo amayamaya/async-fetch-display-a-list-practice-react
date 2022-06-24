@@ -3,7 +3,7 @@ import Herb from './Herb';
 
 export default function HerbList({ herbs = [] }) {
   return (
-    <div className="flower-list">
+    <div className="herb-list">
       {herbs.map((herb, i) => {
         return <Herb {...herb} key={herb.name + i + herb.id} />;
       })}

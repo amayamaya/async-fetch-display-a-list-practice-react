@@ -53,8 +53,8 @@ function App() {
       <header className="App-header">
         <FlowerList flowers={flowers} />
         <HerbList herbs={herbs} />
-        <VineList vines={vines} />
         <FancyList plants={plants} />
+        <VineList vines={vines} />
       </header>
     </div>
   );
